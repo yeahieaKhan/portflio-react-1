@@ -1,6 +1,8 @@
 import React from "react";
 import HeroImg from "../../assets/hero-img.jpg";
 import { Typewriter } from "react-simple-typewriter";
+import { FileText } from "lucide-react";
+import { FaFacebook, FaLinkedin, FaGithub, FaFileAlt } from "react-icons/fa";
 
 const Hero = () => {
   const handleType = (count) => {
@@ -51,7 +53,45 @@ const Hero = () => {
             </b>
             . I'm always eager to learn and take on new challenges.
           </p>
-          <button className="btn btn-primary">Contact Me</button>
+          <ul className="flex gap-4 items-center">
+            <li>
+              <button className="btn btn-secondary flex items-center gap-2">
+                <FaFileAlt size={18} /> Resume
+              </button>
+            </li>
+            <li>
+              <a
+                href="https://facebook.com/yourusername"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[#1877F2] hover:scale-110 transition-transform duration-200"
+              >
+                <FaFacebook size={32} />
+              </a>
+            </li>
+
+            <li>
+              <a
+                href="https://linkedin.com/in/yourusername"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[#0077B5] hover:scale-110 transition-transform duration-200"
+              >
+                <FaLinkedin size={32} />
+              </a>
+            </li>
+
+            <li>
+              <a
+                href="https://github.com/yourusername"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[#181717] hover:scale-110 transition-transform duration-200"
+              >
+                <FaGithub size={32} />
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
     </div>

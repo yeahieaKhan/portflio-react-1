@@ -61,7 +61,7 @@ const Hero = () => {
             </li>
             <li>
               <a
-                href="https://facebook.com/yourusername"
+                href="https://www.facebook.com/yeahieaKhan83"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-[#1877F2] hover:scale-110 transition-transform duration-200"
@@ -72,7 +72,7 @@ const Hero = () => {
 
             <li>
               <a
-                href="https://linkedin.com/in/yourusername"
+                href="https://linkedin.com/in/yeahiea21"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-[#0077B5] hover:scale-110 transition-transform duration-200"
@@ -83,7 +83,7 @@ const Hero = () => {
 
             <li>
               <a
-                href="https://github.com/yourusername"
+                href="https://github.com/yeahieaKhan"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-[#181717] hover:scale-110 transition-transform duration-200"

@@ -1,10 +1,8 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import "./App.css";
 import Navbar from "./components/Navbar/Navbar";
 import Hero from "./components/Hero/Hero";
 import Skills from "./components/Skills/Skills";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -12,6 +10,7 @@ function App() {
       <Navbar></Navbar>
       <Hero></Hero>
       <Skills></Skills>
+      <Footer></Footer>
     </>
   );
 }

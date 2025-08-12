@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Doc Time",
+    "image": "https://i.ibb.co.com/PZBRZyzm/Screenshot-2025-08-12-144559.png",
+    "githubLink": "https://github.com/username/portfolio-client",
+    "liveLink": "https://doc-time.netlify.app/",
+    "details": {
+      "technologyStack": ["React.js", "Tailwind CSS", "React Router", "DaisyUI"],
+      "description": "Doc Time is a responsive and visually engaging portfolio website built with React, Tailwind CSS, and DaisyUI. It highlights skills, showcases projects, and provides quick contact options while ensuring smooth navigation and performance.",
+      "challenges": [
+        "Ensuring consistent responsive design across different devices",
+        "Optimizing image loading speed for better performance",
+        "Creating smooth animations without affecting performance"
+      ],
+      "futurePlans": [
+        "Add a blog section for sharing technical articles",
+        "Integrate a dark/light mode toggle",
+        "Enhance animations and transitions for better UX"
+      ]
+    }
+  },
+  {
+    "name": "Foot Expiry system",
+    "image": "https://i.ibb.co.com/QjhPcnGK/Screenshot-2025-08-12-144526.png",
+    "githubLink": "https://github.com/yeahieaKhan/food-expiry-tracker-client",
+    "liveLink": "https://foot-expiry-tracker-syster.web.app/",
+    "details": {
+      "technologyStack": ["React.js", "Express.js", "Tailwind CSS", "Firebase", "Mongodb", "JWT"],
+      "description": "Foot Expiry System is a robust e-commerce application that helps businesses track product expiration dates, manage inventory, and ensure timely restocking. Built with the MERN stack, it features secure authentication, advanced search, and responsive design.",
+      "challenges": [
+        "Implementing secure authentication and authorization",
+        "Managing global state for cart and user sessions",
+        "Optimizing product search and filtering functionality"
+      ],
+      "futurePlans": [
+        "Add payment gateway integration",
+        "Implement order tracking functionality",
+        "Add product review and rating system"
+      ]
+    }
+  },
+  {
+    "name": "Sports Club Management System",
+    "image": "https://i.ibb.co.com/k654hDTz/Screenshot-2025-08-12-144512.png",
+    "githubLink": "https://github.com/yeahieaKhan/sports-club-management-client",
+    "liveLink": "https://sports-club-management-b64e1.web.app/all-Courts",
+    "details": {
+      "technologyStack": ["React.js", "Express.js", "MongoDB", "Firebase", "Tailwind CSS", "TanStack Query"],
+      "description": "Sports Club Management System is an all-in-one platform for managing club memberships, event bookings, payments, and administrative tasks. It includes real-time booking synchronization, role-based access control, and fast data handling for large clubs.",
+      "challenges": [
+        "Handling role-based access control for different user types",
+        "Synchronizing bookings and availability in real time",
+        "Maintaining fast performance with large datasets"
+      ],
+      "futurePlans": [
+        "Integrate payment automation",
+        "Add analytics dashboard for admins",
+        "Implement mobile app version"
+      ]
+    }
+  }
+]

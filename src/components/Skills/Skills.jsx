@@ -5,8 +5,11 @@ import { SiDaisyui, SiFirebase, SiGithub, SiMongodb } from "react-icons/si";
 
 const Skills = () => {
   return (
-    <div className="max-w-7xl mx-auto p-6 bg-white rounded-lg shadow-lg">
-      <h2 className="text-3xl font-bold mb-6 text-center">My Skills</h2>
+    <div
+      id="skills"
+      className="max-w-7xl mx-auto p-6 py-20 bg-white rounded-lg shadow-lg"
+    >
+      <h2 className="text-3xl font-bold mb-6 text-center pb-3">My Skills</h2>
       <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-8 gap-6">
         {/* HTML */}
         <div className="flex  flex-col items-center justify-center gap-3 p-4 border rounded-lg shadow-sm hover:shadow-lg transition-shadow cursor-default">

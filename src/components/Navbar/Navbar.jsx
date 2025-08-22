@@ -19,7 +19,7 @@ const Navbar = () => {
   );
 
   return (
-    <div className="bg-gray-400 text-white">
+    <div className="bg-gradient-to-r from-blue-700 via-purple-700 to-pink-600  font-bold text-white">
       <div className="navbar  shadow-sm">
         <div className="navbar-start">
           <div className="dropdown">

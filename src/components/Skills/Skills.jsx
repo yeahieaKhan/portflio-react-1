@@ -1,7 +1,7 @@
 import React from "react";
 import { BiLogoTailwindCss } from "react-icons/bi";
 import { FaCss3Alt, FaHtml5, FaNodeJs, FaReact } from "react-icons/fa";
-import { SiDaisyui, SiFirebase, SiGithub, SiMongodb } from "react-icons/si";
+import {  SiFirebase, SiGithub, SiMongodb } from "react-icons/si";
 
 const Skills = () => {
   return (

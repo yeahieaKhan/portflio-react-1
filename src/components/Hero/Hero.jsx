@@ -1,7 +1,7 @@
 import React from "react";
 import HeroImg from "../../assets/hero-img.jpg";
 import { Typewriter } from "react-simple-typewriter";
-import { FileText } from "lucide-react";
+
 import { FaFacebook, FaLinkedin, FaGithub, FaFileAlt } from "react-icons/fa";
 
 const Hero = () => {
